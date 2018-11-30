@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Lato';
+
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+
+}
+header{
+    background-color: #00283D;
+    height: 100rem;
+}
+
+.aboutMe{
+    height: 100rem;
+}
+
+.contact{
+    background-color: #00283D;
+    height: 50rem;
+}
+
+
+footer{
+    background-color: black;
+    height: 15rem;
+}
+
+
+h1{
+    font-family: "Lato", Lato, sans-serif;
+    font-weight: lighter;
+    color: #ccc;
+    display: inline;
+
+}
+
+.my{
+    position: absolute;
+    left: 24.5%;
+    top: 5%;
+    font-size: 4rem;
+    display: inline-block;
+    color: #f48342;
+
+}
+.project{
+    position: absolute;
+    display: inline-block;
+    left: 28.15%;
+    top: 5%;
+    font-size: 4rem;
+
+
+
+}
+
+.hello{
+    position: absolute;
+    top: 5%;
+    right: 20%;
+
+}
+
+.hi{
+    position: relative;
+    font-size: 5rem;
+
+
+}
+.name{
+    position: relative;
+
+    font-size: 5rem;
+}
+
+.exclamationMark1{
+    display: inline-block;
+    font-size: 10rem;
+    color: #f48342;
+}
+
+.exclamationMark2{
+    position: relative;
+    display: inline-block;
+    color: #f48342;
+    font-size: 10rem;
+}
+
+.note{
+    position: absolute;
+    display: inline-block;
+    bottom: 40%;
+    right: 25%;
+    font-size: 1.5rem;
+}
+
+.junior{
+
+
+}
+
+.brave{
+    position: inherit;
+    top: 3.5rem;
+    left: 0rem;
+    font-size: 1.3rem;
+
+}
+
+.frontEnd{
+    position: relative;
+    top: 6.2rem;
+
+}
+
+.developer{
+    position: inherit;
+    top: 15rem;
+}
+
+.dot{
+    position: inherit;
+    top: 13.3rem;
+    left: 14rem;
+    font-size: 5rem;
+    color: #f48342;
+}
+
+.wrapper {
+    position: relative;
+    top: 15%;
+    left: 9%;
+    max-width: 80rem;
+    margin: 0;
+}
+
+.iphone {
+    position: relative;
+    background: black;
+    width: 45%;
+    height: 0;
+    padding-top: 95%;
+    margin: 0 auto;
+    border-radius: 4.5rem;
+}
+
+.power {
+    position: absolute;
+    background: black;
+    width: 12%;
+    height: .5%;
+    top: -.2%;
+    right: 12%;
+    border-top-left-radius: .5rem;
+    border-top-right-radius: .5rem;
+}
+
+.lock {
+    position: absolute;
+    background: black;
+    width: 1%;
+    height: 5%;
+    top: 12.5%;
+    left: -.5%;
+    border-top-left-radius: .5rem;
+    border-bottom-left-radius: .5rem;
+}
+
+.volume {
+    position: absolute;
+    background: black;
+    width: 1%;
+    height: 4%;
+    top: 23%;
+    left: -.5%;
+    border-top-left-radius: .5rem;
+    border-bottom-left-radius: .5rem;
+}
+
+.volume.down{ top: 31%; }
+
+.camera {
+    position: absolute;
+    top: 4%;
+    left: 48.5%;
+    background: #3f3f3f;
+    width: 3%;
+    height: 0;
+    padding-top: 3%;
+    border-radius: 50%;
+}
+
+.speaker {
+    position: absolute;
+    top: 7%;
+    left: 40%;
+    background: #3f3f3f;
+    width: 20%;
+    height: 0;
+    padding-top: 2%;
+    border-radius: 1rem;
+}
+.app{
+    padding-top: 2%;
+    width: 20%;
+    height: 12.5%;
+    margin: 2.2%;
+    background-color: #3f3f0f;
+    border-radius: 1rem;
+    color: white;
+}
+
+#app1{
+    position: relative;
+    display: inline-block;
+}
+
+#app2{
+    position: relative;
+    display: inline-block;
+}
+
+#app3{
+    position: relative;
+    display: inline-block;
+}
+
+#app4{
+    position: relative;
+    display: inline-block;
+}
+
+#app5{
+    position: relative;
+    display: inline-block;
+    top: 12.5%;
+}
+
+#app6{
+    position: relative;
+    display: inline-block;
+    top: 12.5%;
+}
+
+#app7{
+    position: relative;
+    display: inline-block;
+    top: 12.5%;
+}
+
+#app8{
+    position: relative;
+    display: inline-block;
+    top: 12.5%;
+}
+#app9{
+    position: relative;
+    display: inline-block;
+    top: 12.5%;
+}
+
+#app10{
+    position: relative;
+    display: inline-block;
+    top: 12.5%;
+}
+
+#app11{
+    position: relative;
+    display: inline-block;
+    top: 12.5%;
+}
+
+
+
+
+
+.screen {
+    background: #fff;
+    width: 90%;
+    height: 75%;
+    position: absolute;
+    top: 12.5%;
+    left: 5%;
+}
+
+.button {
+    position: absolute;
+    bottom: 2.75%;
+    left: 42.5%;
+    background: #3f3f3f;
+    border: 2px solid #202020;
+    width: 15%;
+    height: 0;
+    padding-top: 15%;
+    border-radius: 50%;
+}
+
+.square {
+    position: absolute;
+    top: 27.5%;
+    left: 27.5%;
+    border: 2px solid #cccccc;
+    border-radius: .3rem;
+    width: 45%;
+    height: 45%;
+}
+
